@@ -16,13 +16,13 @@ To call from the client-side, make your call as you would with `polyfill.io`:
 https://polyfill.guim.co.uk/v2/polyfill.min.js?features=fetch
 ```
 
-#### Example: Polyfill Array.prototype.contains and Element.classList
+##### Example: Polyfill Array.prototype.contains and Element.classList
 
 ```
 https://polyfill.guim.co.uk/v2/polyfill.min.js?features=Array.prototype.contains,Element.classList
 ```
 
-To see a full list of features that can be polyfilled, (look here)[https://polyfill.io/v2/docs/features/].
+To see a full list of features that can be polyfilled, [look here](https://polyfill.io/v2/docs/features/).
 
 
 
