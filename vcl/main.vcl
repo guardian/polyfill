@@ -51,7 +51,7 @@ sub vcl_fetch {
   set beresp.ttl = 8h;
 
   # use stale for a lot longer in case of fail, or our internet is down
-  set beresp.stale_if_error = 48h;
+  set beresp.stale_if_error = 168h;
 }
 
 sub vcl_recv {
