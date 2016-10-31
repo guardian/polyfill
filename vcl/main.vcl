@@ -47,9 +47,6 @@ sub vcl_fetch {
 
   esi;
 
-  # cache everything for 8 hours ignoring any cache headers
-  set beresp.ttl = 8h;
-
   # use stale for a lot longer in case of fail, or our internet is down
   set beresp.stale_if_error = 168h;
 }
